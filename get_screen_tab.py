@@ -12,6 +12,11 @@ from core import config as cfg
 
 screen_id = 178
 request_url = cfg.BASE_URL + "/screen/" + str(screen_id)
+
+# These parameters can be modified to match any search criteria following
+# the rules outlined in the Wiki: https://wiki.thebiogrid.org/doku.php/orcs:webservice
+# In this instance, we've chosen to return results in "tab" format with a header, and 
+# to limit scores in the SCORE.1 column to the range of 0.9 -> 0.98
 params = {
     "accesskey": cfg.ACCESS_KEY,
     "format": "tab",

@@ -20,3 +20,4 @@ Sample code for accessing the BioGRID ORCS Rest Service and working with the res
 + [**get_screen_json.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screen_json.py) - Obtain score information for a single screen in json format
 + [**get_screen_pandas.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screen_pandas.py) - Obtain score information for a single screen, and load it into a pandas dataframe
 + [**get_screens.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screens.py) - Obtain screens with various configurable search criteria 
++ [**get_screens_and_scores.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screens_and_scores.py) - Obtain screens with various configurable search criteria and then fetch the score values associated with those screens with additional search criteria

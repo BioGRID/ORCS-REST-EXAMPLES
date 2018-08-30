@@ -12,6 +12,11 @@ from core import config as cfg
 
 screen_id = 178
 request_url = cfg.BASE_URL + "/screen/" + str(screen_id)
+
+# These parameters can be modified to match any search criteria following
+# the rules outlined in the Wiki: https://wiki.thebiogrid.org/doku.php/orcs:webservice
+# In this particular instance, we've chosen to return results in json format and to limit
+# values in the SCORE.1 column to the range of 0.9 and 0.98
 params = {
     "accesskey": cfg.ACCESS_KEY,
     "format": "json",
@@ -24,7 +29,7 @@ screen = r.json( )
 
 data = {}
 for row in screen :
-    # create a hash of results by gene identifier
+    # Create a hash of results by gene identifier
     data[row['IDENTIFIER_ID']] = row
 
 # Print out data about the genes BRIX1, ASB4, and NOB1
