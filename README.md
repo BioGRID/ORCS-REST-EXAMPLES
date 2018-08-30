@@ -8,7 +8,7 @@ Sample code for accessing the BioGRID ORCS Rest Service and working with the res
 + Python 3.6.5+
 + Required Python libraries are listed in requirements.txt. To install them all simply run the following from within your development environment: 
   + **pip3 install -r requirements.txt**
-+ We also recommend installing virtualenv and virtualenvwrapper for a containerized python environment ([**Setup Instructions**](https://askubuntu.com/questions/244641/how-to-set-up-and-use-a-virtual-python-environment-in-ubuntu/244642#244642))
++ We also recommend installing virtualenv and virtualenvwrapper for a containerized python environment ([**Setup Instructions**](https://askubuntu.com/questions/244641/how-to-set-up-and-use-a-virtual-python-environment-in-ubuntu/244642#244642)) but this is optional.
 
 ## Configuration
 + All configuration options are located in the config/config.sample.yml file in YAML format. Simply rename the file to config.yml and update the options contained within to reflect your own environment.
@@ -18,4 +18,5 @@ Sample code for accessing the BioGRID ORCS Rest Service and working with the res
 ## Examples
 + [**get_screen_tab.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screen_tab.py) - Obtain score information for a single screen in tab format
 + [**get_screen_json.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screen_json.py) - Obtain score information for a single screen in json format
++ [**get_screen_pandas.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screen_pandas.py) - Obtain score information for a single screen, and load it into a pandas dataframe
 + [**get_screens.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screens.py) - Obtain screens with various configurable search criteria 
