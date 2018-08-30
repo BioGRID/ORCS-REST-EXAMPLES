@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Configs
+config.json
+config/config.json
+config.yml
+config/config.yml
