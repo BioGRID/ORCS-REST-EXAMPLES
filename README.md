@@ -1,4 +1,4 @@
-# BioGRID ORCS Rest Service Example Code
+# BioGRID ORCS Web Service Examples
 Sample code for accessing the BioGRID ORCS Rest Service and working with the resulting datasets.
 
 ## Development Status
@@ -16,6 +16,6 @@ Sample code for accessing the BioGRID ORCS Rest Service and working with the res
 + For a listing of all configurable search parameters when making requests, visit our wiki: **https://wiki.thebiogrid.org/doku.php/orcs:webservice**
 
 ## Examples
-+ get_screen_tab.py - Obtain score information for a single screen in tab format
-+ get_screen_json.py - Obtain score information for a single screen in json format
-+ get_screens.py - Obtain screens with various configurable search criteria 
++ [**get_screen_tab.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screen_tab.py) - Obtain score information for a single screen in tab format
++ [**get_screen_json.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screen_json.py) - Obtain score information for a single screen in json format
++ [**get_screens.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screens.py) - Obtain screens with various configurable search criteria 
