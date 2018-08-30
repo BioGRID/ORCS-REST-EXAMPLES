@@ -16,3 +16,4 @@ data = yaml.load( data )
 
 # ACCESS KEY
 ACCESS_KEY = data['orcs']['access_key']
+BASE_URL = data['orcs']['base_url']

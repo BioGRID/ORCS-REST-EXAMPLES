@@ -13,5 +13,9 @@ Sample code for accessing the BioGRID ORCS Rest Service and working with the res
 ## Configuration
 + All configuration options are located in the config/config.sample.yml file in YAML format. Simply rename the file to config.yml and update the options contained within to reflect your own environment.
 + All access to the BioGRID ORCS Webservice requires an individual access key. It's free to signup to use it. You will need to register at **https://orcsws.thebiogrid.org/** to obtain one, and enter it in your config file for it to be accessible from all example code in this repository.
++ For a listing of all configurable search parameters when making requests, visit our wiki: **https://wiki.thebiogrid.org/doku.php/orcs:webservice**
 
 ## Examples
++ get_screen_tab.py - Obtain score information for a single screen in tab format
++ get_screen_json.py - Obtain score information for a single screen in json format
++ get_screens.py - Obtain screens with various configurable search criteria 

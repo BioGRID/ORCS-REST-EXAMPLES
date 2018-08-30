@@ -1,2 +1,3 @@
 orcs:
   access_key: "ACCESS KEY GOES HERE: YOU CAN GET ONE AT https://orcsws.thebiogrid.org/"
+  base_url: "https://orcsws.thebiogrid.org"
