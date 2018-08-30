@@ -15,3 +15,4 @@ Sample code for accessing the BioGRID ORCS Rest Service and working with the res
 + All access to the BioGRID ORCS Webservice requires an individual access key. It's free to signup to use it. You will need to register at **https://orcsws.thebiogrid.org/** to obtain one, and enter it in your config file for it to be accessible from all example code in this repository.
 
 ## Examples
++ get_screens.py - Obtain screens with various configurable search criteria 
