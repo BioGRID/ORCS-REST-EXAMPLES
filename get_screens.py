@@ -10,6 +10,11 @@ import requests
 from core import config as cfg
 
 request_url = cfg.BASE_URL + "/screens/"
+
+# These parameters can be modified to match any search criteria following
+# the rules outlined in the Wiki: https://wiki.thebiogrid.org/doku.php/orcs:webservice
+# In this instance, we've limited the results to only those in the cellLine hela and with the
+# library methodology of "knockout"
 params = {
     "accesskey": cfg.ACCESS_KEY,
     "cellLine": "hela",

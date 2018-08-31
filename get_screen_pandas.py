@@ -14,6 +14,10 @@ from core import config as cfg
 
 screen_id = 205
 request_url = cfg.BASE_URL + "/screen/" + str(screen_id)
+
+# These parameters can be modified to match any search criteria following
+# the rules outlined in the Wiki: https://wiki.thebiogrid.org/doku.php/orcs:webservice
+# In this particular case, we've chosen to return everything in the json format.
 params = {
     "accesskey": cfg.ACCESS_KEY,
     "format": "json"
@@ -37,7 +41,7 @@ dataset = dataset[columns]
 # Convert numeric columns into floats
 dataset[['SCORE.1','SCORE.2']] = dataset[['SCORE.1','SCORE.2']].apply( pd.to_numeric )
 
-# Print all scores with SCORE.1 > 1
+# Print all rows with SCORE.1 > 1
 print( dataset.loc[dataset['SCORE.1'] > 1] )
 
 """ 
@@ -49,7 +53,7 @@ Output as of version 1.0.1:
 729873               gene          TBC1D3  PRC17|TBC1D3A|TBC1D3F|DKFZp434P2235        9606      Homo sapiens  2.968792    0.382  NO  BioGRID ORCS
 """
 
-# Print all hits only
+# Print hits only
 print( dataset.loc[dataset['HIT'] == 'YES'])
 
 """ 
