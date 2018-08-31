@@ -27,10 +27,10 @@ r = requests.get( request_url, params = params )
 screens = r.json( )
 print( "Number of Screens Found: " + str(len(screens)) )
 
+# Step through each matching screen, and make a request
+# for the associated score data
 scores = {}
 for screen in screens :
-    # Step through each matching screen, and make a request
-    # for the associated score data
     request_url = cfg.BASE_URL + "/screen/" + str(screen['SCREEN_ID'])
 
     # These parameters can be modified to match any search criteria following
