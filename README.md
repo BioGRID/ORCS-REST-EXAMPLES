@@ -15,7 +15,12 @@ Sample code for accessing the BioGRID ORCS Rest Service and working with the res
 + All access to the BioGRID ORCS Webservice requires an individual access key. It's free to signup to use it. You will need to register at **https://orcsws.thebiogrid.org/** to obtain one, and enter it in your config file for it to be accessible from all example code in this repository.
 + For a listing of all configurable search parameters when making requests, visit our wiki: **https://wiki.thebiogrid.org/doku.php/orcs:webservice**
 
+## How to Run
++ After completing the configuration steps above. Simply run: **python3 \<script name\>** at the command prompt. Example: **python3 get_screen_tab.py**
+
 ## Examples
++ [**get_organisms.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_organisms.py) - Obtain currently supported organism ids
++ [**get_vocab_terms.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_vocab_terms.py) - Obtain controlled vocabulary terms to help you create requests for other endpoints of the API
 + [**get_screen_tab.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screen_tab.py) - Obtain score information for a single screen in tab format
 + [**get_screen_json.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screen_json.py) - Obtain score information for a single screen in json format
 + [**get_screen_pandas.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_screen_pandas.py) - Obtain score information for a single screen, and load it into a pandas dataframe
