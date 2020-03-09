@@ -29,3 +29,7 @@ Sample code for accessing the BioGRID ORCS Rest Service and working with the res
 + [**get_gene.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_gene.py) - Obtain a set of scores for a single gene with various configurable search criteria
 + [**get_genes.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_genes.py) - Obtain a set of gene scores with various configurable search criteria
 + [**get_genes_and_screens.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_genes_and_screens.py) - Obtain a set of scores for a specific gene, with configured criteria and then fetch the annotation about the screens it returned
+
+## Third Party Tools (Real World Examples)
+The following are third party, open source tools that make use of the BioGRID ORCS API in interesting and useful ways.
++ [**ScreenHCA**](https://github.com/wujood/ScreenHCA) - A python script to cluster CRISPR screens from the BioGRID ORCS database using hierarchical clustering. 
