@@ -3,12 +3,13 @@ Sample code for accessing the BioGRID ORCS Rest Service and working with the res
 
 ## Development Status
 + **Status**: In Progress
++ **Version**: 1.0
 
 ## Requirements
-+ Python 3.6.5+
-+ Required Python libraries are listed in requirements.txt. To install them all simply run the following from within your development environment: 
-  + **pip3 install -r requirements.txt**
-+ We also recommend installing virtualenv and virtualenvwrapper for a containerized python environment ([**Setup Instructions**](https://askubuntu.com/questions/244641/how-to-set-up-and-use-a-virtual-python-environment-in-ubuntu/244642#244642)) but this is optional.
++ Python 3.5.2+
++ Pipenv
++ Requirements are located in the Pipfile, simply execute `pipenv shell` inside this directory to activate the virtual environment and install required dependencies.
++ If dependencies are not installed, run `pipenv install` when inside your virtual environment
 
 ## Configuration
 + All configuration options are located in the config/config.sample.yml file in YAML format. Simply rename the file to config.yml and update the options contained within to reflect your own environment.
@@ -16,7 +17,7 @@ Sample code for accessing the BioGRID ORCS Rest Service and working with the res
 + For a listing of all configurable search parameters when making requests, visit our wiki: **https://wiki.thebiogrid.org/doku.php/orcs:webservice**
 
 ## How to Run
-+ After completing the configuration steps above. Simply run: **python3 \<script name\>** at the command prompt. Example: **python3 get_screen_tab.py**
++ After completing the configuration steps above. Simply run: **python \<script name\>** at the command prompt. Example: **python get_screen_tab.py**
 
 ## Examples
 + [**get_organisms.py**](https://github.com/BioGRID/ORCS-REST-EXAMPLES/blob/master/get_organisms.py) - Obtain currently supported organism ids
