@@ -2,7 +2,7 @@
 Sample code for accessing the BioGRID ORCS Rest Service and working with the resulting datasets.
 
 ## Development Status
-+ **Status**: In Progress
++ **Status**: Stable
 + **Version**: 1.0
 
 ## Requirements
