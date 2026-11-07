@@ -1,0 +1,27 @@
+[project]
+name = "orcs-rest-examples"
+version = "2.0.0"
+description = "Example scripts for the BioGRID ORCS REST web service"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28",
+    "loguru>=0.7",
+    "pandas>=3.0",
+    "polars>=2.0",
+    "pyyaml>=6.0",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.17"]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
